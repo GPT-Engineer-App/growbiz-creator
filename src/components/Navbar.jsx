@@ -1,5 +1,5 @@
 import { Box, Flex, Link, Image } from "@chakra-ui/react";
-import logo from "../../public/images/logo.png";
+import logo from "../../public/images/new-logo.png";
 import { Link as RouterLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
       <Flex h={16} alignItems="center" justifyContent="space-between">
         <Box>
           <Link as={RouterLink} to="/">
-            <Image src={logo} alt="AP Developers Logo" height="40px" />
+            <Image src={logo} alt="New AP Developers Logo" height="40px" />
           </Link>
         </Box>
         <Flex alignItems="center">

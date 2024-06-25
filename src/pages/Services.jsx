@@ -1,23 +1,37 @@
-import { Container, Heading, Text, VStack, Image } from "@chakra-ui/react";
+import { Container, Heading, Text, VStack, Image, Box } from "@chakra-ui/react";
 import { motion } from 'framer-motion';
 import servicesImage from "../../public/images/services.jpg";
+import webDevImage from "../../public/images/web-development.jpg";
+import onlineStoreImage from "../../public/images/online-store.jpg";
 
 const Services = () => {
   return (
-    <Container centerContent maxW="container.md" py={8}>
-      <VStack spacing={4}>
+    <Container centerContent maxW="container.md" py={12} px={6}>
+      <VStack spacing={8}>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-          <Heading as="h1" size="xl">Our Services</Heading>
+          <Heading as="h1" size="2xl" fontFamily="Arial, sans-serif" color="teal.500" mb={4}>
+            Our Services
+          </Heading>
         </motion.div>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 0.5 }}>
-          <Image src={servicesImage} alt="Services" />
+          <Image src={servicesImage} alt="Services" borderRadius="md" />
         </motion.div>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 1 }}>
-          <Text fontSize="lg">We offer the following services:</Text>
+          <Text fontSize="xl" fontFamily="Arial, sans-serif" color="gray.700" textAlign="center" px={4}>
+            We offer the following services:
+          </Text>
         </motion.div>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 1.5 }}>
-          <Text>- Website Development</Text>
-          <Text>- Online Store Creation</Text>
+          <Box textAlign="center">
+            <Text fontSize="lg" fontFamily="Arial, sans-serif" color="gray.600" mb={2}>
+              - Website Development
+            </Text>
+            <Image src={webDevImage} alt="Website Development" borderRadius="md" mb={4} />
+            <Text fontSize="lg" fontFamily="Arial, sans-serif" color="gray.600" mb={2}>
+              - Online Store Creation
+            </Text>
+            <Image src={onlineStoreImage} alt="Online Store Creation" borderRadius="md" />
+          </Box>
         </motion.div>
       </VStack>
     </Container>
