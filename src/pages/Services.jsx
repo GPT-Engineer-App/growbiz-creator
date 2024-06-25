@@ -2,7 +2,7 @@ import { Container, Heading, Text, VStack, Image, Box } from "@chakra-ui/react";
 import { motion } from 'framer-motion';
 import servicesImage from "../../public/images/services.jpg";
 import webDevImage from "../../public/images/new-web-development-v3.jpg";
-import onlineStoreImage from "../../public/images/online-store.jpg";
+import onlineStoreImage from "../../public/images/new-online-store.jpg";
 
 const Services = () => {
   return (
@@ -30,7 +30,7 @@ const Services = () => {
             <Text fontSize="lg" fontFamily="Arial, sans-serif" color="gray.600" mb={2}>
               - Online Store Creation
             </Text>
-            <Image src={onlineStoreImage} alt="Online Store Creation" borderRadius="md" />
+            <Image src={onlineStoreImage} alt="New Online Store Creation" borderRadius="md" />
           </Box>
         </motion.div>
       </VStack>
