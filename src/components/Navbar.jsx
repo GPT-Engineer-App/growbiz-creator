@@ -12,16 +12,16 @@ const Navbar = () => {
           </Link>
         </Box>
         <Flex alignItems="center">
-          <Link as={RouterLink} to="/services" color="white" mx={2}>
+          <Link as={RouterLink} to="/services" color="white" mx={2} _hover={{ color: "#ffcc00" }}>
             Services
           </Link>
-          <Link as={RouterLink} to="/founder" color="white" mx={2}>
+          <Link as={RouterLink} to="/founder" color="white" mx={2} _hover={{ color: "#ffcc00" }}>
             Founder
           </Link>
-          <Link as={RouterLink} to="/future-plans" color="white" mx={2}>
+          <Link as={RouterLink} to="/future-plans" color="white" mx={2} _hover={{ color: "#ffcc00" }}>
             Future Plans
           </Link>
-          <Link as={RouterLink} to="/pricing" color="white" mx={2}>
+          <Link as={RouterLink} to="/pricing" color="white" mx={2} _hover={{ color: "#ffcc00" }}>
             Pricing
           </Link>
         </Flex>
