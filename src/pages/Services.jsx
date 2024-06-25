@@ -1,7 +1,7 @@
 import { Container, Heading, Text, VStack, Image, Box } from "@chakra-ui/react";
 import { motion } from 'framer-motion';
 import servicesImage from "../../public/images/services.jpg";
-import webDevImage from "../../public/images/new-web-development-v12.jpg";
+import webDevImage from "../../public/images/new-web-development-v13.jpg";
 import onlineStoreImage from "../../public/images/new-online-store-v2.jpg";
 
 const Services = () => {
@@ -26,7 +26,7 @@ const Services = () => {
             <Text fontSize="lg" fontFamily="Arial, sans-serif" color="gray.600" mb={2}>
               - Website Development
             </Text>
-            <Image src={webDevImage} alt="New Website Development v12" borderRadius="md" mb={4} />
+            <Image src={webDevImage} alt="New Website Development v13" borderRadius="md" mb={4} />
             <Text fontSize="lg" fontFamily="Arial, sans-serif" color="gray.600" mb={2}>
               - Online Store Creation
             </Text>
