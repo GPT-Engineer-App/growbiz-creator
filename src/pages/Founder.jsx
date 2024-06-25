@@ -1,8 +1,8 @@
 import { Container, Heading, Text, VStack, Image, Box } from "@chakra-ui/react";
 import { motion } from 'framer-motion';
 import founderImage from "../../public/images/founder.jpg";
-import additionalImage1 from "../../public/images/additional1.jpg";
-import additionalImage2 from "../../public/images/additional2.jpg";
+import additionalImage1 from "../../public/images/new_additional1.jpg";
+import additionalImage2 from "../../public/images/new_additional2.jpg";
 
 const Founder = () => {
   return (
@@ -28,8 +28,8 @@ const Founder = () => {
         </motion.div>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 2 }}>
           <Box>
-            <Image src={additionalImage1} alt="Additional Image 1" borderRadius="md" boxShadow="lg" mb={4} />
-            <Image src={additionalImage2} alt="Additional Image 2" borderRadius="md" boxShadow="lg" />
+            <Image src={additionalImage1} alt="New Additional Image 1" borderRadius="md" boxShadow="lg" mb={4} />
+            <Image src={additionalImage2} alt="New Additional Image 2" borderRadius="md" boxShadow="lg" />
           </Box>
         </motion.div>
       </VStack>
