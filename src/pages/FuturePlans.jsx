@@ -1,7 +1,7 @@
 import { Container, Heading, Text, VStack, Image } from "@chakra-ui/react";
 import { motion } from 'framer-motion';
 import futurePlansImage from "../../public/images/future-plans.jpg";
-import appDevelopmentImage from "../../public/images/app-development.jpg";
+import appDevelopmentImage from "../../public/images/new-app-development.jpg";
 import businessOptimizationImage from "../../public/images/business-optimization.jpg";
 import consultancyImage from "../../public/images/consultancy.jpg";
 
@@ -24,7 +24,7 @@ const FuturePlans = () => {
         </motion.div>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 1.5 }}>
           <VStack spacing={4}>
-            <Image src={appDevelopmentImage} alt="App Development" borderRadius="md" />
+            <Image src={appDevelopmentImage} alt="New App Development" borderRadius="md" />
             <Text fontSize="lg" fontFamily="Arial, sans-serif" color="gray.600">- App Development</Text>
             <Image src={businessOptimizationImage} alt="Business Optimization" borderRadius="md" />
             <Text fontSize="lg" fontFamily="Arial, sans-serif" color="gray.600">- Business Optimization</Text>
