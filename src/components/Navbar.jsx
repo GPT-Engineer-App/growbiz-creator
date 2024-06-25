@@ -7,7 +7,7 @@ const Navbar = () => {
       <Flex h={16} alignItems="center" justifyContent="space-between">
         <Box>
           <Link as={RouterLink} to="/" color="white" fontWeight="bold" fontSize="lg">
-            Our Business
+            AP Developers
           </Link>
         </Box>
         <Flex alignItems="center">
@@ -19,6 +19,9 @@ const Navbar = () => {
           </Link>
           <Link as={RouterLink} to="/future-plans" color="white" mx={2}>
             Future Plans
+          </Link>
+          <Link as={RouterLink} to="/pricing" color="white" mx={2}>
+            Pricing
           </Link>
         </Flex>
       </Flex>

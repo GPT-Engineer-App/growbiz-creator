@@ -3,6 +3,7 @@ import Index from "./pages/Index.jsx";
 import Services from "./pages/Services.jsx";
 import Founder from "./pages/Founder.jsx";
 import FuturePlans from "./pages/FuturePlans.jsx";
+import Pricing from "./pages/Pricing.jsx";
 import Navbar from "./components/Navbar.jsx";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/services" element={<Services />} />
         <Route exact path="/founder" element={<Founder />} />
         <Route exact path="/future-plans" element={<FuturePlans />} />
+        <Route exact path="/pricing" element={<Pricing />} />
       </Routes>
     </Router>
   );
